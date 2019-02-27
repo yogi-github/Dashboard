@@ -5,6 +5,8 @@ Dashboard will have details corresponding to Water usage and Total cost involved
 
 The data is ploted for five years since 2015. More data can be added by modifying the data.json input file.
 
+Kindly refer the image for a dashboard view - dashboard.png
+
 ## Description
 The Dashboard contains a PieChart, LineChart and BarChart.
 
