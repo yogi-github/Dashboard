@@ -1,0 +1,95 @@
+#pieChart {    
+	position:absolute;
+	top:150px;
+	left:100px;
+	width:400px;
+	height:400px; 
+}
+
+#lineChart {    
+	position:absolute;
+	top:150px;
+	left:550px;
+	height:150px;
+}
+
+#barChart {
+	position:absolute;
+	top:310px;
+	left:550px;
+	height:250px;
+}
+
+.slice {	
+   font-size: 12pt;
+   font-family: Verdana;
+   fill: white;
+   font-weight: bold;	
+} 
+
+/*for line chart*/
+.axis path, .axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.line {
+  fill: none;
+  stroke-width: 3px;
+}
+
+.dot {
+  stroke-width: 1.5px;
+  }
+				
+
+.axis text {
+    font-family: Verdana;
+    font-size: 11px;
+}
+
+.title {
+	 font-family: Verdana;
+    font-size: 15px;	
+		
+}
+
+.xAxis {
+    font-family: verdana;
+    font-size: 11px;
+    fill: black;
+}  
+
+.yAxis {
+    font-family: verdana;
+    font-size: 11px;
+    fill: white;
+}
+
+  
+table {
+	border-collapse:collapse;
+	border: 0px;	
+	font-family: Verdana;	
+	color: #5C5558;
+	font-size: 12px;
+	text-align: right;			
+}
+
+td {
+	padding-left: 10px;		
+}
+
+#lineChartTitle1 {
+	font-family: Verdana;
+	font-size  : 14px;
+	fill       : black;
+	text-anchor: middle;
+}
+
+#lineChartTexts {
+	font-family: Verdana;
+	font-size  : 12px;
+	fill       : black;
+}
